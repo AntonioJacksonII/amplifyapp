@@ -38,7 +38,7 @@ function App() {
     setNotes([ ...notes, formData ]);
     setFormData(initialFormState);
   }
-  
+
   async function deleteNote({ id }) {
     const newNotesArray = notes.filter(note => note.id !== id);
     setNotes(newNotesArray);
@@ -65,6 +65,10 @@ function App() {
         onChange={e => setFormData({ ...formData, 'description': e.target.value})}
         placeholder="Note description"
         value={formData.description}
+      />
+      <input
+        type="file"
+        onChange={onChange}
       />
       <button onClick={createNote}>Create Note</button>
       <div style={{marginBottom: 30}}>
