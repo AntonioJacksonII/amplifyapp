@@ -7,8 +7,18 @@ The AmplifyApp is a basic notes app for creating and saving notes with a title, 
 The purpose of this application was for [@AntonioJacksonII](https://github.com/AntonioJacksonII) to build a React application using AWS Amplify, following the [Build a Full-Stack React Application](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/) AWS tutorial. Tasks completed include:
 * Building and hosting a single-page React application on AWS
 * Adding authentication
-* Adding a GraphQL API and database
+* Adding a GraphQL API and NoSQL database
 * Updating the application to store images
+
+## Technologies and Concepts
+* JavaScript
+* Node.js
+* React.js
+* GraphQL API
+* AWS Amplify
+* Amazon DynamoDB NoSQL database
+* Amazon S3 file storage
+* User Authentication
 
 ## Installation and Usage
 To use the application, run the following commands in your Terminal:
